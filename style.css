@@ -1,0 +1,63 @@
+body {
+    background-color: rgb(49, 49, 49);
+    color: rgb(180, 180, 180);
+    
+}
+
+header {
+    border-bottom:solid 3px rgb(195, 255, 104) ;
+    font-size:  48px;
+    font-weight: 900;
+    color: rgb(195, 255, 104);
+    padding-left: 20px;
+}
+
+h1 { 
+    font-style: oblique;
+    font-size: 28px;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 50px;
+}
+
+.video {
+    padding-top: 100px;
+    padding-bottom: 200px;
+    background-color: rgb(22, 22, 22);
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    
+}
+.titulo-video {
+    padding-bottom: 10px;
+    
+}
+.videos-recomendados {
+    display: flex;
+    align-items: center;
+    overflow-x: auto;
+    gap: 18px;
+    height: 200px;
+}
+
+.recomendados {
+    padding-left: 18px;
+    padding-right: 18px;
+}
+
+.videos-recomendados img {
+    opacity: 0.5;
+    height: 150px;
+    border-radius: 0px;
+    border: 0px solid rgb(54, 75, 37);
+    transition: all 0.3s;
+
+}
+.videos-recomendados img:hover{
+    opacity: 1;
+    height: 175px;
+    border-radius: 10px;
+    border: 4px solid rgb(22, 22, 22);
+    transition: all 0.5s;
+}
